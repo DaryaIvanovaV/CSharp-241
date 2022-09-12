@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<Compile Include="Adress.cs" />
+		<Compile Include="Human.cs" />
+		<Compile Include="listHuman.cs" />
+		<Compile Include="Program.cs" />
+		<Compile Include="Teacher.cs" />
+		<Compile Include="Student.cs" />
+		<Compile Include="ListTeacher.cs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+	<PropertyGroup>
+		<EnableDefaultItems>false</EnableDefaultItems>
+	</PropertyGroup>
+</Project>
