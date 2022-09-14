@@ -1,0 +1,16 @@
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.csproj.AssemblyReference.cache
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.AssemblyInfoInputs.cache
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.AssemblyInfo.cs
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.csproj.CoreCompileInputs.cache
+C:\Users\Dasha\С#\Class3\Class3\bin\Debug\net5.0\Class3.exe
+C:\Users\Dasha\С#\Class3\Class3\bin\Debug\net5.0\Class3.deps.json
+C:\Users\Dasha\С#\Class3\Class3\bin\Debug\net5.0\Class3.runtimeconfig.json
+C:\Users\Dasha\С#\Class3\Class3\bin\Debug\net5.0\Class3.runtimeconfig.dev.json
+C:\Users\Dasha\С#\Class3\Class3\bin\Debug\net5.0\Class3.dll
+C:\Users\Dasha\С#\Class3\Class3\bin\Debug\net5.0\Class3.pdb
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.dll
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\refint\Class3.dll
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.pdb
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\Class3.genruntimeconfig.cache
+C:\Users\Dasha\С#\Class3\Class3\obj\Debug\net5.0\ref\Class3.dll
