@@ -38,12 +38,21 @@ namespace @Class2
 
             Console.WriteLine(File.ReadAllText(fileName));
         }
-        public string t_txt()
+        public string savelist_txt()
         {
             string res = "";
-            for(int n = 0; n < list.Count(); n++)
+            for (int n = 0; n < list.Count; n++)
+            {
                 res += list[n].toStr();
+                res += "\n";
+            }
             return res;
+        }
+        public void TextsWriterlist(string url)
+        {
+            StreamWriter sw = new StreamWriter(url);
+            sw.WriteLine(savelist_txt());
+            sw.Close();
         }
     }
 }

@@ -7,33 +7,31 @@ using System.IO;
 
 namespace @Class2
 {
+    public enum Key { csharp, python, java, JS }
     class Student : Human
     {
         private int group;
         private int money;
+        private Key key;
 
         public Student() : base()
         {
 
         }
         public Student(string name, string surname, int age, double height, 
-            double weight, bool habbits, Nation nation, Adress adress, int group, int money) : base (name, surname,
-                age, height, weight, habbits, nation, adress)
+            double weight, bool habbits, Nation nation, Adress adress, string email, int group, int money, Key key) : base (name, surname,
+                age, height, weight, habbits, nation, adress, email)
         {
             this.group = group;
             this.money = money;
+            this.key = key;
         }
         public override  void printInfo()
         {
-            string data =
-               "Name: " + this._name + "\n" +
-               "Surname: " + this._surname + "\n" +
-               "Age: " + this._age.ToString() + "\n" +
-               "Height: " + this._height.ToString() + "\n" +
-               "Weight: " + this._weight.ToString() + "\n" +
-               "Is Habbits: " + this._habbits.ToString() + "\n" +
+            string data = base.toStr() + "\n" +
                "Group: " + this.group.ToString() + "\n" +
-               "Money: " + this.money.ToString() + "\n";
+               "Money: " + this.money.ToString() + "\n" +
+               "Key: " + this.key.ToString() + "\n";
             Console.WriteLine(data);
 
         }
@@ -42,7 +40,8 @@ namespace @Class2
             string str;
             str = base.toStr();
             str += "Group: " + this.group.ToString() + "\n" +
-               "Money: " + this.money.ToString() + "\n";
+               "Money: " + this.money.ToString() + "\n" +
+               "Key: " + this.key.ToString() + "\n";
             return str;
         }
         public int Group
@@ -54,6 +53,12 @@ namespace @Class2
         {
             get { return money; }
             set { money = value; }
+        }
+        public Key Key
+        {
+            get { return key; }
+            set { key = value; }
+
         }
     }
 }

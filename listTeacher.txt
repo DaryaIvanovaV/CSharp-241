@@ -1,0 +1,25 @@
+Name: Antua
+Surname: Jarjo
+Age: 21
+Height: 1,83
+Weight: 63
+Is Habbits: False
+Nation: French
+Email: Antujo@gmail.comSalary: 30000
+Department: FKNFM
+Number of set: 7
+Key: csharp
+
+Name: Jack
+Surname: Li
+Age: 16
+Height: 1,83
+Weight: 63
+Is Habbits: False
+Nation: French
+Email: JackLi@gmail.comSalary: 30000
+Department: FKNFM
+Number of set: 4
+Key: python
+
+

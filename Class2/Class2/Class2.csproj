@@ -6,6 +6,7 @@
   </PropertyGroup>
 	<ItemGroup>
 		<Compile Include="Adress.cs" />
+		<Compile Include="CourseWorks.cs" />
 		<Compile Include="Human.cs" />
 		<Compile Include="listHuman.cs" />
 		<Compile Include="Program.cs" />

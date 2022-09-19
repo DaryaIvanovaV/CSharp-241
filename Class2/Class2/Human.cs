@@ -17,20 +17,21 @@ namespace @Class2
         protected bool _habbits;
         protected Nation _nation;
         protected Adress _adress;
-
+        protected string _email;
 
         public Human()
         {
             Console.WriteLine("Создание объекта Person");
-            this._name = "Alesia";
-            this._surname = "Tantsiurenko";
-            this._age = 19;
-            this._height = 1.84;
-            this._weight = 60;
+            this._name = "Dasha";
+            this._surname = "Ivanova";
+            this._age = 18;
+            this._height = 1.50;
+            this._weight = 43;
             this._habbits = false;
             this._nation = Nation.Ukranian;
+            this._email = "IvanovaD@gmail.com";
         }
-        public Human(string name, string surname, int age, double height, double weight, bool habbits, Nation nation, Adress adress)
+        public Human(string name, string surname, int age, double height, double weight, bool habbits, Nation nation, Adress adress, string email)
         {
             this._name = name;
             this._surname = surname;
@@ -40,6 +41,7 @@ namespace @Class2
             this._habbits = habbits;
             this._nation = nation;
             this._adress = adress;
+            this._email = email;
         }
         public static Human operator +(Human one, Human two)
         {
@@ -68,7 +70,8 @@ namespace @Class2
                 "Weight: " + this._weight.ToString() + "\n" +
                 "Is Habbits: " + this._habbits.ToString() + "\n" +
                 "Nation: " + this._nation.ToString() + "\n" +
-                "Adress: " + this._adress.toString();
+                "Adress: " + this._adress.ToString() + "\n" +
+                "Email: " + this._email;
             Console.WriteLine(data);
         }
         public virtual string toStr()
@@ -80,7 +83,8 @@ namespace @Class2
                 "Height: " + this._height.ToString() + "\n" +
                 "Weight: " + this._weight.ToString() + "\n" +
                 "Is Habbits: " + this._habbits.ToString() + "\n" +
-                "Nation: " + this._nation.ToString();
+                "Nation: " + this._nation.ToString() + "\n" +
+                "Email: " + this._email;
             return str;
         }
         public string Name
@@ -129,6 +133,11 @@ namespace @Class2
         {
             get { return _adress; }
             set { _adress = value; }
+        }
+        public string Email
+        {
+            get { return _email; }
+            set { _email = value; }
         }
 
     }

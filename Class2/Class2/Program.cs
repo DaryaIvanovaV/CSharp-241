@@ -14,10 +14,10 @@ namespace @Class2
         {
             List<Human> listHuman = new List<Human>();
             Adress add1 = new Adress("Ukraine", "Kherson", "Perekopskaya", 3);
-            Human one = new Human("Alesia", "Tantsiurenko", 19, 1.84, 60, false, Nation.Ukranian, add1);
-            Human two = new Human("Alex", "Ker", 18, 1.84, 100, true, Nation.Polish, new Adress("Polish", "Jahj", "Thgg", 5));
-            Human tree = new Human("Fernando", "Forg", 25, 1.70, 70, true, Nation.French, new Adress("France", "Niol", "Suf", 9));
-            Human four = new Human("Marta", "Nanti", 15, 1.60, 38, false, Nation.German, new Adress("Germany", "Natf", "Rolt", 52));
+            Human one = new Human("Dasha", "Ivanova", 18, 1.50, 43, false, Nation.Ukranian, add1, "IvanovaD@gmail.com");
+            Human two = new Human("Alex", "Ker", 18, 1.84, 100, true, Nation.Polish, new Adress("Polish", "Jahj", "Thgg", 5), "AlKer@gmail.com");
+            Human tree = new Human("Fernando", "Forg", 25, 1.70, 70, true, Nation.French, new Adress("France", "Niol", "Suf", 9), "FF@gmail.com");
+            Human four = new Human("Marta", "Nanti", 15, 1.60, 38, false, Nation.German, new Adress("Germany", "Natf", "Rolt", 52), "Maranti@gmail.com");
 
             listHuman list = new listHuman();
             list.add(one);
@@ -26,21 +26,23 @@ namespace @Class2
             list.add(four);
 
             listTeacher listTeacher = new listTeacher();
-            Student st_one = new Student("Rita", "Ora", 20, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), 241, 5000);
-            Student st_two = new Student("Franc", "Antua", 18, 1.83, 63, false, Nation.German, new Adress("Germany", "Nolt", "Brovera", 7), 241, 5000);
-            Student st_three = new Student("Rinata", "Jane", 17, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), 241, 5000);
-            Teacher one_th = new Teacher("Antua", "Jarjo", 21, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), 30000, "FKNFM");
+            Student st_one = new Student("Rita", "Ora", 20, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "RitOr@gmail.com", 241, 5000, Key.java);
+            Student st_two = new Student("Franc", "Antua", 18, 1.83, 63, false, Nation.German, new Adress("Germany", "Nolt", "Brovera", 7), "AnFran@gmail.com", 241, 5000, Key.csharp);
+            Student st_three = new Student("Rinata", "Jane", 17, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "RinaJa@gmail.com", 241, 5000, Key.JS);
+            Teacher one_th = new Teacher("Antua", "Jarjo", 21, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "Antujo@gmail.com", 30000, "FKNFM", 7, KeyWords.csharp);
             one_th.add(st_one);
             one_th.add(st_two);
             one_th.add(st_three);
             one_th.show();
-            Teacher two_th = new Teacher("Jack", "Li", 16, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), 30000, "FKNFM");
+            Teacher two_th = new Teacher("Jack", "Li", 16, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "JackLi@gmail.com", 30000, "FKNFM", 4, KeyWords.python);
             listTeacher.add(one_th);
             listTeacher.add(two_th);
             listTeacher.show();
             listTeacher.save_list();
 
-            list.save_txt("C:\\Test.txt");
+            one_th.TextsWriter("C:\\listStudent.txt"); // Сохраняет студентов с общими интересами
+            listTeacher.TextsWriterlist("C:\\listTeacher.txt");
+            Console.ReadLine();
             /*
             
             Console.WriteLine("Выберите действие ");
