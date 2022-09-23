@@ -64,6 +64,7 @@ namespace @Class2
                 "Key: " + this.keywords.ToString() + "\n";
             return str;
         }
+        
         public int Salary
         {
             get { return salary; }
@@ -89,6 +90,15 @@ namespace @Class2
             get { return keywords; }
             set { keywords = value; }
         }
+        /*
+        public void save_list()
+        {
+            string fileName = "Student.json";
+            string jsonString = JsonSerializer.Serialize(this.list);
+            File.WriteAllText(fileName, jsonString);
+
+            Console.WriteLine(File.ReadAllText(fileName));
+        }*/
         public string save_txt()
         {
             string res = "";

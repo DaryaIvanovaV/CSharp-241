@@ -1,0 +1,12 @@
+Name: Franc
+Surname: Antua
+Age: 18
+Height: 1,83
+Weight: 63
+Is Habbits: False
+Nation: German
+Email: AnFran@gmail.comGroup: 241
+Money: 5000
+Key: csharp
+
+

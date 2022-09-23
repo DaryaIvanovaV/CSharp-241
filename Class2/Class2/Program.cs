@@ -12,6 +12,7 @@ namespace @Class2
     {
         static void Main(string[] args)
         {
+            /*
             List<Human> listHuman = new List<Human>();
             Adress add1 = new Adress("Ukraine", "Kherson", "Perekopskaya", 3);
             Human one = new Human("Dasha", "Ivanova", 18, 1.50, 43, false, Nation.Ukranian, add1, "IvanovaD@gmail.com");
@@ -24,23 +25,32 @@ namespace @Class2
             list.add(two);
             list.add(tree);
             list.add(four);
-
+            */
             listTeacher listTeacher = new listTeacher();
             Student st_one = new Student("Rita", "Ora", 20, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "RitOr@gmail.com", 241, 5000, Key.java);
             Student st_two = new Student("Franc", "Antua", 18, 1.83, 63, false, Nation.German, new Adress("Germany", "Nolt", "Brovera", 7), "AnFran@gmail.com", 241, 5000, Key.csharp);
-            Student st_three = new Student("Rinata", "Jane", 17, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "RinaJa@gmail.com", 241, 5000, Key.JS);
+            Student st_three = new Student("Rinata", "Jane", 17, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "RinaJa@gmail.com", 241, 5000, Key.python);
             Teacher one_th = new Teacher("Antua", "Jarjo", 21, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "Antujo@gmail.com", 30000, "FKNFM", 7, KeyWords.csharp);
+            Teacher two_th = new Teacher("Jack", "Li", 16, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "JackLi@gmail.com", 30000, "FKNFM", 4, KeyWords.python);
+            
             one_th.add(st_one);
             one_th.add(st_two);
             one_th.add(st_three);
             one_th.show();
-            Teacher two_th = new Teacher("Jack", "Li", 16, 1.83, 63, false, Nation.French, new Adress("France", "Paris", "Brovera", 7), "JackLi@gmail.com", 30000, "FKNFM", 4, KeyWords.python);
+
+            two_th.add(st_one);
+            two_th.add(st_two);
+            two_th.add(st_three);
+            two_th.show();
+            
             listTeacher.add(one_th);
             listTeacher.add(two_th);
             listTeacher.show();
-            listTeacher.save_list();
+            listTeacher.save_list(); // Сохраняет студента и его учителя
 
-            one_th.TextsWriter("C:\\listStudent.txt"); // Сохраняет студентов с общими интересами
+
+            one_th.TextsWriter("C:\\listStudent1.txt"); // Сохраняет студентов с общими интересами для первого учителя
+            two_th.TextsWriter("C:\\listStudent2.txt"); // Сохраняет студентов с общими интересами для второго учителя
             listTeacher.TextsWriterlist("C:\\listTeacher.txt");
             Console.ReadLine();
             /*

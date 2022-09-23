@@ -1,0 +1,12 @@
+Name: Rinata
+Surname: Jane
+Age: 17
+Height: 1,83
+Weight: 63
+Is Habbits: False
+Nation: French
+Email: RinaJa@gmail.comGroup: 241
+Money: 5000
+Key: python
+
+
