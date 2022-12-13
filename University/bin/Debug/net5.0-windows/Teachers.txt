@@ -1,0 +1,18 @@
+Name: dvbhn
+Surname: dfvsdg
+Age: 23
+Is Habbits: True
+Gender: Female
+Nation: Polish
+Adress: 
+Country: grgt
+City: rrt
+Street: thyf
+House: 32
+Email: ddfvd
+Salary: 1223
+Department: dfdg
+Number of set: 12
+Key: csharp
+
+

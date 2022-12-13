@@ -1,0 +1,33 @@
+Name: dsfdf
+Surname: dfd
+Age: 12
+Is Habbits: True
+Gender: Female
+Nation: Polish
+Adress: 
+Country: fdgd
+City: rfggt
+Street: wer
+House: 23
+Email: gfhfh
+Group: 122
+Money: 1213
+Key: csharp
+
+Name: gbhfg
+Surname: fh
+Age: 34
+Is Habbits: False
+Gender: Male
+Nation: German
+Adress: 
+Country: fhgg
+City: thtyh
+Street: tert
+House: 32
+Email: hngh
+Group: 231
+Money: 32123
+Key: java
+
+
